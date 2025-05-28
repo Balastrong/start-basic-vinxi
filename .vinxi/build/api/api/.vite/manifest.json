@@ -1,0 +1,29 @@
+{
+  "_index-DGsDXB41.js": {
+    "file": "assets/index-DGsDXB41.js",
+    "name": "index",
+    "dynamicImports": [
+      "src/routes/api/auth.$.ts?pick=APIRoute",
+      "src/routes/api/auth.$.ts?pick=APIRoute"
+    ]
+  },
+  "src/routes/api/auth.$.ts?pick=APIRoute": {
+    "file": "auth._.js",
+    "name": "auth._",
+    "src": "src/routes/api/auth.$.ts?pick=APIRoute",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-DGsDXB41.js"
+    ]
+  },
+  "virtual:$vinxi/handler/api": {
+    "file": "api.js",
+    "name": "api",
+    "src": "virtual:$vinxi/handler/api",
+    "isEntry": true,
+    "imports": [
+      "_index-DGsDXB41.js"
+    ]
+  }
+}

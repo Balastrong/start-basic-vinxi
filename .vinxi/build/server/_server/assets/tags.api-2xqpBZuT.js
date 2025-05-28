@@ -1,0 +1,1 @@
+import{c as t,a}from"./index-HNgfQz2a.js";import"./server-De-CGB3V.js";import"@tanstack/router-core";import"node:async_hooks";import"h3";const n=t("src_services_tags_api_ts--getTags_createServerFn_handler","/_server",(e,r)=>s.__executeServer(e,r)),s=a().handler(n,async()=>["frontend","backend","devops","design","community"]);export{n as getTags_createServerFn_handler};

@@ -1,0 +1,145 @@
+{
+  "/Users/leonardo/PersProgetti/start-basic-alpha/src/globals.css": {
+    "file": "assets/globals-ChSM57PH.css",
+    "src": "/Users/leonardo/PersProgetti/start-basic-alpha/src/globals.css"
+  },
+  "__vite-browser-external": {
+    "file": "assets/__vite-browser-external-BIHI7g3E.js",
+    "name": "__vite-browser-external",
+    "src": "__vite-browser-external",
+    "isDynamicEntry": true
+  },
+  "_card-DPkeIbmr.js": {
+    "file": "assets/card-DPkeIbmr.js",
+    "name": "card",
+    "imports": [
+      "_client-Be5q_lbq.js"
+    ]
+  },
+  "_chevron-left-s6Vrd-Kc.js": {
+    "file": "assets/chevron-left-s6Vrd-Kc.js",
+    "name": "chevron-left",
+    "imports": [
+      "_client-Be5q_lbq.js"
+    ]
+  },
+  "_client-Be5q_lbq.js": {
+    "file": "assets/client-Be5q_lbq.js",
+    "name": "client",
+    "dynamicImports": [
+      "__vite-browser-external",
+      "__vite-browser-external",
+      "__vite-browser-external",
+      "__vite-browser-external",
+      "src/routes/sign-up.tsx?tsr-split=component",
+      "src/routes/sign-in.tsx?tsr-split=component",
+      "src/routes/profile.tsx?tsr-split=component",
+      "src/routes/calendar.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/globals-ChSM57PH.css"
+    ]
+  },
+  "_form-B6UXoWQ_.js": {
+    "file": "assets/form-B6UXoWQ_.js",
+    "name": "form",
+    "imports": [
+      "_client-Be5q_lbq.js",
+      "_loader-circle-E8mevhe3.js",
+      "_input-DPE8SgqL.js"
+    ]
+  },
+  "_input-DPE8SgqL.js": {
+    "file": "assets/input-DPE8SgqL.js",
+    "name": "input",
+    "imports": [
+      "_client-Be5q_lbq.js"
+    ]
+  },
+  "_layout-BdBLz4Bd.js": {
+    "file": "assets/layout-BdBLz4Bd.js",
+    "name": "layout",
+    "imports": [
+      "_client-Be5q_lbq.js"
+    ]
+  },
+  "_loader-circle-E8mevhe3.js": {
+    "file": "assets/loader-circle-E8mevhe3.js",
+    "name": "loader-circle",
+    "imports": [
+      "_client-Be5q_lbq.js"
+    ]
+  },
+  "src/routes/calendar.tsx?tsr-split=component": {
+    "file": "assets/calendar-DCXGOlsl.js",
+    "name": "calendar",
+    "src": "src/routes/calendar.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-Be5q_lbq.js",
+      "_chevron-left-s6Vrd-Kc.js",
+      "_layout-BdBLz4Bd.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-C9a-8YGs.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-Be5q_lbq.js",
+      "_card-DPkeIbmr.js",
+      "_chevron-left-s6Vrd-Kc.js",
+      "_input-DPE8SgqL.js",
+      "_layout-BdBLz4Bd.js"
+    ]
+  },
+  "src/routes/profile.tsx?tsr-split=component": {
+    "file": "assets/profile-UZhk5MLo.js",
+    "name": "profile",
+    "src": "src/routes/profile.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-Be5q_lbq.js",
+      "_loader-circle-E8mevhe3.js",
+      "_card-DPkeIbmr.js",
+      "_input-DPE8SgqL.js"
+    ]
+  },
+  "src/routes/sign-in.tsx?tsr-split=component": {
+    "file": "assets/sign-in-CYEPJuuX.js",
+    "name": "sign-in",
+    "src": "src/routes/sign-in.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-Be5q_lbq.js",
+      "_layout-BdBLz4Bd.js",
+      "_loader-circle-E8mevhe3.js",
+      "_form-B6UXoWQ_.js",
+      "_input-DPE8SgqL.js"
+    ]
+  },
+  "src/routes/sign-up.tsx?tsr-split=component": {
+    "file": "assets/sign-up-iXFJBLLt.js",
+    "name": "sign-up",
+    "src": "src/routes/sign-up.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-Be5q_lbq.js",
+      "_layout-BdBLz4Bd.js",
+      "_loader-circle-E8mevhe3.js",
+      "_form-B6UXoWQ_.js",
+      "_input-DPE8SgqL.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-D3Nnt2QE.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_client-Be5q_lbq.js"
+    ]
+  }
+}

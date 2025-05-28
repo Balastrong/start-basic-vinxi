@@ -1,0 +1,98 @@
+{
+  "_auth.api-blvfxgr-.js": {
+    "file": "assets/auth.api-blvfxgr-.js",
+    "name": "auth.api",
+    "imports": [
+      "_auth.schema-C-QPdDIq.js",
+      "_index-HNgfQz2a.js",
+      "_server-De-CGB3V.js"
+    ]
+  },
+  "_auth.schema-C-QPdDIq.js": {
+    "file": "assets/auth.schema-C-QPdDIq.js",
+    "name": "auth.schema",
+    "imports": [
+      "_index-HNgfQz2a.js"
+    ]
+  },
+  "_index-HNgfQz2a.js": {
+    "file": "assets/index-HNgfQz2a.js",
+    "name": "index",
+    "imports": [
+      "_server-De-CGB3V.js"
+    ]
+  },
+  "_server-De-CGB3V.js": {
+    "file": "assets/server-De-CGB3V.js",
+    "name": "server",
+    "dynamicImports": [
+      "src/services/auth.api.ts?tsr-directive-use-server=",
+      "src/services/auth.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/community.api.ts?tsr-directive-use-server=",
+      "src/services/event.api.ts?tsr-directive-use-server=",
+      "src/services/event.api.ts?tsr-directive-use-server=",
+      "src/services/event.api.ts?tsr-directive-use-server=",
+      "src/services/tags.api.ts?tsr-directive-use-server="
+    ]
+  },
+  "src/services/auth.api.ts?tsr-directive-use-server=": {
+    "file": "assets/auth.api-IrAclgzC.js",
+    "name": "auth.api",
+    "src": "src/services/auth.api.ts?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth.schema-C-QPdDIq.js",
+      "_index-HNgfQz2a.js",
+      "_server-De-CGB3V.js"
+    ]
+  },
+  "src/services/community.api.ts?tsr-directive-use-server=": {
+    "file": "assets/community.api-Dnoe55V7.js",
+    "name": "community.api",
+    "src": "src/services/community.api.ts?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth.schema-C-QPdDIq.js",
+      "_auth.api-blvfxgr-.js",
+      "_server-De-CGB3V.js",
+      "_index-HNgfQz2a.js"
+    ]
+  },
+  "src/services/event.api.ts?tsr-directive-use-server=": {
+    "file": "assets/event.api-BsouMevw.js",
+    "name": "event.api",
+    "src": "src/services/event.api.ts?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_auth.schema-C-QPdDIq.js",
+      "_auth.api-blvfxgr-.js",
+      "_index-HNgfQz2a.js",
+      "_server-De-CGB3V.js"
+    ]
+  },
+  "src/services/tags.api.ts?tsr-directive-use-server=": {
+    "file": "assets/tags.api-2xqpBZuT.js",
+    "name": "tags.api",
+    "src": "src/services/tags.api.ts?tsr-directive-use-server=",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-HNgfQz2a.js",
+      "_server-De-CGB3V.js"
+    ]
+  },
+  "virtual:$vinxi/handler/server": {
+    "file": "server.js",
+    "name": "server",
+    "src": "virtual:$vinxi/handler/server",
+    "isEntry": true,
+    "imports": [
+      "_server-De-CGB3V.js"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "/Users/leonardo/PersProgetti/start-basic-alpha/src/globals.css": {
+    "file": "assets/globals-ChSM57PH.css",
+    "src": "/Users/leonardo/PersProgetti/start-basic-alpha/src/globals.css"
+  },
+  "_card-3I0Ckeqd.js": {
+    "file": "assets/card-3I0Ckeqd.js",
+    "name": "card",
+    "imports": [
+      "_ssr-BorI3jCH.js"
+    ]
+  },
+  "_form-DacGNDwl.js": {
+    "file": "assets/form-DacGNDwl.js",
+    "name": "form",
+    "imports": [
+      "_ssr-BorI3jCH.js",
+      "_input-VBkQFdq7.js"
+    ]
+  },
+  "_input-VBkQFdq7.js": {
+    "file": "assets/input-VBkQFdq7.js",
+    "name": "input",
+    "imports": [
+      "_ssr-BorI3jCH.js"
+    ]
+  },
+  "_layout-DeG64cWT.js": {
+    "file": "assets/layout-DeG64cWT.js",
+    "name": "layout"
+  },
+  "_ssr-BorI3jCH.js": {
+    "file": "assets/ssr-BorI3jCH.js",
+    "name": "ssr",
+    "dynamicImports": [
+      "src/routes/sign-up.tsx?tsr-split=component",
+      "src/routes/sign-in.tsx?tsr-split=component",
+      "src/routes/profile.tsx?tsr-split=component",
+      "src/routes/calendar.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/globals-ChSM57PH.css"
+    ]
+  },
+  "src/routes/calendar.tsx?tsr-split=component": {
+    "file": "assets/calendar-BazKR9zi.js",
+    "name": "calendar",
+    "src": "src/routes/calendar.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-BorI3jCH.js",
+      "_layout-DeG64cWT.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-B2BRHzb_.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_card-3I0Ckeqd.js",
+      "_ssr-BorI3jCH.js",
+      "_input-VBkQFdq7.js",
+      "_layout-DeG64cWT.js"
+    ]
+  },
+  "src/routes/profile.tsx?tsr-split=component": {
+    "file": "assets/profile-DO6dlf9Z.js",
+    "name": "profile",
+    "src": "src/routes/profile.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-BorI3jCH.js",
+      "_card-3I0Ckeqd.js",
+      "_input-VBkQFdq7.js"
+    ]
+  },
+  "src/routes/sign-in.tsx?tsr-split=component": {
+    "file": "assets/sign-in-BZF_yvbj.js",
+    "name": "sign-in",
+    "src": "src/routes/sign-in.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_layout-DeG64cWT.js",
+      "_form-DacGNDwl.js",
+      "_ssr-BorI3jCH.js",
+      "_input-VBkQFdq7.js"
+    ]
+  },
+  "src/routes/sign-up.tsx?tsr-split=component": {
+    "file": "assets/sign-up-CBHkmx6Q.js",
+    "name": "sign-up",
+    "src": "src/routes/sign-up.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_layout-DeG64cWT.js",
+      "_form-DacGNDwl.js",
+      "_ssr-BorI3jCH.js",
+      "_input-VBkQFdq7.js"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "imports": [
+      "_ssr-BorI3jCH.js"
+    ]
+  }
+}
